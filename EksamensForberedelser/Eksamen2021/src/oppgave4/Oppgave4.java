@@ -11,6 +11,7 @@ class Person{
         this.telefonnr = telefonnr;
     }
 
+    @Override
     public String toString() {
         return ("Navn: "+navn+"\nAdresse: "+adresse+"\nTelefonnr: "+telefonnr+"\n");
     }

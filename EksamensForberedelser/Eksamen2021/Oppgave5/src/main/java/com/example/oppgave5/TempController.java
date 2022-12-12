@@ -19,6 +19,7 @@ public class TempController {
     @FXML
     void nullstill(ActionEvent event) {
         temperaturer.clear();
+        txtTemperatur.setText("");
         lblResultat.setText("Temperaturlisten er nullstilt");
     }
 
